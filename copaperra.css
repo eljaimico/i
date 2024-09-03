@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #0b0c10;
+    color: #c5c6c7;
+}
+
+header {
+    background-color: #1f2833;
+    color: #66fcf1;
+    padding: 20px;
+    text-align: center;
+    background-size: cover;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #66fcf1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    padding: 30px;
+    background-image: url('espacio.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+article {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    width: 45%;
+    border-radius: 10px;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+img {
+    animation: fadeIn 2s ease-in-out;
+    transition: transform 0.5s ease;
+    border-radius: 10px;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+
+article img {
+    width:100%; 
+    border-radius: 10px;
+
+}
+
+
+aside {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    width: 20%;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #0b1725;
+    color: #0d2761;
+    text-align: center;
+    padding: 20px;
+    
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}
+ul{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-style: italic;
+}
+
+
